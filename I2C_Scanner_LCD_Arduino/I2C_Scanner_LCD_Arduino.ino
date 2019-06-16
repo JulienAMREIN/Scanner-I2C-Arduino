@@ -5,7 +5,7 @@ void setup()
     Wire.begin();
     Serial.begin(9600);
     while (!Serial);
-    
+    Serial.println("\nReady);
     
   }
 
